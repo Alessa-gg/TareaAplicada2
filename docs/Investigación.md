@@ -13,5 +13,4 @@ La aplicación contará con un formulario con controles como TextBox, Button y D
 Además, permitirá guardar y cargar una lista de consultas favoritas en un archivo local usando colecciones genéricas como List, e incluirá
 un manejo estricto de excepciones con bloques try-catch y mensajes claros en la interfaz para gestionar fallos de conexión o entradas inválidas.
 
-Como entregables finales del equipo, presentaremos la aplicación funcional en nuestro repositorio de GitHub, 
-elaboraremos una presentación de diapositivas de máximo 10 minutos para defender el trabajo de manera individual y entregaremos el documento en formato PDF antes de la fecha límite del 9 de septiembre.
+
