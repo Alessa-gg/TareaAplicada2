@@ -1,6 +1,6 @@
 using System.Data;
 
-namespace AppClima
+namespace TareaAplicada2
 {
     public partial class Form1 : Form
     {
