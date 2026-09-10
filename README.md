@@ -1,25 +1,39 @@
-# Punto 3 - Diseño de la Interfaz Gráfica
+#  Investigación Aplicada 2
 
-## Qué incluye
-- `Form1.Designer.cs`: diseño de los controles (TextBox para ciudad, botones "Consultar" y "Guardar Favorito", DataGridView para mostrar resultados).
-- `Form1.cs`: lógica del formulario, incluyendo un método `async` (`ObtenerClimaDummyAsync`) que **simula** la llamada a la API mientras el compañero del Punto 2 no suba su `ClimaService.cs`.
-- `Program.cs`: punto de entrada de la aplicación.
 
-## Cómo probarlo
-1. Abrir la carpeta `AppClima` en Visual Studio (o `dotnet run` si tienes el SDK de .NET 8 con soporte de Windows).
-2. Ejecutar el proyecto.
-3. Escribir cualquier ciudad y presionar "Consultar": después de ~1.5 segundos aparece una fila con datos simulados en la tabla, sin congelar la ventana.
+## Descripción
 
-## Cómo integrar la API real (cuando llegue el Punto 2)
-En `Form1.cs`, dentro de `btnConsultar_Click`, reemplazar:
-```csharp
-var datos = await ObtenerClimaDummyAsync(ciudad);
-```
-por:
-```csharp
-var datos = await ClimaService.ObtenerClimaAsync(ciudad);
-```
-(ajustando el nombre del método/clase según cómo lo entregue el compañero).
+Aplicación de escritorio en Windows Forms (C#) que consume una API REST pública,
+gestiona información en tiempo real y permite guardar/cargar consultas favoritas
+en almacenamiento local, con manejo de excepciones y colecciones genéricas.
 
-## Pendiente de integración con otros puntos
-- Botón "Guardar Favorito" está listo en la interfaz, pero la lógica de guardado en CSV se conecta cuando llegue `FavoritosService.cs` (Punto 4).
+## Tecnologías utilizadas
+
+- C# (.NET)
+- Windows Forms
+- HttpClient (consumo de API REST)
+- System.Text.Json (serialización/deserialización)
+- Colecciones genéricas (`List<T>`)
+- Git / GitHub
+
+## Estructura del proyecto
+proyecto-clima-equipo/
+├── README.md
+├── src/
+│ ├── Program.cs
+│ ├── Form1.cs
+│ ├── ClimaService.cs
+│ └── FavoritosService.cs
+└── docs/
+└── investigacion.md
+
+
+## Integrantes del equipo
+
+| # | Integrante | Rama asignada | Parte del programa |
+|---|---|---|---|
+| 1 | <nombre> | `config-entorno` | Configuración del entorno + creación del repo |
+| 2 | <nombre> | `api-rest` | Consumo de la API REST (ClimaService.cs) |
+| 3 | <nombre> | `interfaz-grafica` | Diseño de la interfaz gráfica |
+| 4 | <nombre> | `persistencia-datos` | Persistencia de datos (FavoritosService.cs) |
+| 5 | <nombre> | `manejo-errores` | Manejo de errores e interacción con el usuario main
