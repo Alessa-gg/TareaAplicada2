@@ -14,7 +14,7 @@ en almacenamiento local.
 | 2 | <nombre> | `api-rest` | Consumo de la API REST (ClimaService.cs) |
 | 3 | <nombre> | `interfaz-grafica` | Diseño de la interfaz gráfica |
 | 4 | <nombre> | `persistencia-datos` | Persistencia de datos (FavoritosService.cs) |
-| 5 | <nombre> | `manejo-errores` | Manejo de errores e interacción con el usuario |
+| 5 | <Torres Ramos Daniela Jazmin> | `manejo-errores` | Manejo de errores e interacción con el usuario |
 
 
 
