@@ -1,4 +1,4 @@
-namespace AppClima
+namespace TareaAplicada2
 {
     partial class Form1
     {
