@@ -11,7 +11,7 @@ en almacenamiento local.
 | Persona | Nombre | Rama asignada | Parte del programa |
 |---|---|---|---|
 | 1 | <nombre> | `config-entorno` | Configuración del entorno + creación del repo |
-| 2 | <nombre> | `api-rest` | Consumo de la API REST (ClimaService.cs) |
+| 2 | Alessandra Guadalupe González Burgos. GB253116 | `api-rest` | Consumo de la API REST (ClimaService.cs) |
 | 3 | <nombre> | `interfaz-grafica` | Diseño de la interfaz gráfica |
 | 4 | <nombre> | `persistencia-datos` | Persistencia de datos (FavoritosService.cs) |
 | 5 | <nombre> | `manejo-errores` | Manejo de errores e interacción con el usuario |
