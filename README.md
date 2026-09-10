@@ -35,5 +35,7 @@ proyecto-clima-equipo/
 | 1 | <nombre> | `config-entorno` | Configuración del entorno + creación del repo |
 | 2 | <nombre> | `api-rest` | Consumo de la API REST (ClimaService.cs) |
 | 3 | <nombre> | `interfaz-grafica` | Diseño de la interfaz gráfica |
+
+| 5 | Daniela Ramos | `manejo-errores` | Manejo de errores e interacción |
 | 4 | Susana Nicole Valle Méndez | `persistencia-datos` | Persistencia de datos (FavoritosService.cs) |
 | 5 | <nombre> | `manejo-errores` | Manejo de errores e interacción con el usuario main
