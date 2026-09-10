@@ -1,4 +1,3 @@
-
 #  Investigación Aplicada 2
 
 
@@ -37,4 +36,4 @@ proyecto-clima-equipo/
 | 2 | <nombre> | `api-rest` | Consumo de la API REST (ClimaService.cs) |
 | 3 | <nombre> | `interfaz-grafica` | Diseño de la interfaz gráfica |
 | 4 | <nombre> | `persistencia-datos` | Persistencia de datos (FavoritosService.cs) |
-| 5 | <nombre> | `manejo-errores` | Manejo de errores e interacción con el usuario |
+| 5 | <nombre> | `manejo-errores` | Manejo de errores e interacción con el usuario main
