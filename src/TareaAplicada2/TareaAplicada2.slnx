@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/Elementos de la solución/">
+    <File Path="ClimaService.cs" />
+  </Folder>
   <Project Path="TareaAplicada2.csproj" />
 </Solution>
