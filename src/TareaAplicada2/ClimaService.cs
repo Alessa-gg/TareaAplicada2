@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -23,7 +23,7 @@ namespace TareaAplicada2
                 throw new ArgumentException("El nombre de la ciudad no puede estar vacío.", nameof(ciudad));
 
             string apiKey = "7b440475765c43c9be601736261009";
-            string url = $"https://weatherapi.com{apiKey}&q={Uri.EscapeDataString(ciudad)}&lang=es";
+            string url = $"https://api.weatherapi.com/v1/current.json?key={apiKey}&q={Uri.EscapeDataString(ciudad)}&lang=es";
 
             // Llamada asíncrona para mantener la interfaz WinForms fluida
             HttpResponseMessage response = await _httpClient.GetAsync(url);
